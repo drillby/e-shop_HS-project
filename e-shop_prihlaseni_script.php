@@ -27,10 +27,10 @@
 		die();
 	}
 
-	$servername = "dbs.spskladno.cz";
-	$username = "student14";
-	$password = "spsnet";
-	$dbname = "vyuka14";
+	$servername = "";
+	$username = "";
+	$password = "";
+	$dbname = "";
 
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 

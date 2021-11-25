@@ -25,10 +25,10 @@
 	$_SESSION["objednavka_err"] = "nic";
 	setlocale(LC_MONETARY, "us-US");
 
-	$servername = "dbs.spskladno.cz";
-	$username = "student14";
-	$password = "spsnet";
-	$dbname = "vyuka14";
+	$servername = "";
+	$username = "";
+	$password = "";
+	$dbname = "";
 
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 

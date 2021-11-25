@@ -17,10 +17,10 @@
 	if (!isset($_SESSION["pocet_produktu_note20_err"]))
 		$_SESSION["pocet_produktu_note20_err"] = "nic";
 
-	$servername = "dbs.spskladno.cz";
-	$username = "student14";
-	$password = "spsnet";
-	$dbname = "vyuka14";
+	$servername = "";
+	$username = "";
+	$password = "";
+	$dbname = "";
 
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 

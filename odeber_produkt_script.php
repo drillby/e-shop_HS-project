@@ -2,10 +2,10 @@
 if (!stristr($_SERVER["HTTP_REFERER"], "kosik.php"))
 	die("Script nelze volat z jiné stránky, něž z košíku.");
 
-$servername = "dbs.spskladno.cz";
-$username = "student14";
-$password = "spsnet";
-$dbname = "vyuka14";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 

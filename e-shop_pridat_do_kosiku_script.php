@@ -13,10 +13,10 @@ $_SESSION["pocet_produktu_err"] = "";
 if ($_POST == [])
 	die("Script nelze volat přímo");
 
-$servername = "dbs.spskladno.cz";
-$username = "student14";
-$password = "spsnet";
-$dbname = "vyuka14";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
